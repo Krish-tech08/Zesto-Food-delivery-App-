@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Food App</string>
+    <string name="name">Designed By Krish!</string>
+    <string name="next">Next</string>
+    <string name="designed_by_nkrish">Designed By \nKrish</string>
+    <string name="craving_something_delicious_nwe_ve_got_you_covered">Craving something delicious? \nWe’ve got you covered!</string>
+    <string name="where_hunger_meets_its_match">Where hunger meets its match</string>
+    <string name="choose_location">Choose Location</string>
+</resources>
