@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".location_choose">
+    tools:context=".locationchoose">
 
     <TextView
         android:id="@+id/textView19"
@@ -46,4 +46,16 @@ android:layout_marginTop="15dp"
             android:paddingLeft="10dp"
             android:hint="@string/choose_location" />
     </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="380dp"
+        android:layout_height="150dp"
+        android:layout_marginBottom="50dp"
+        android:includeFontPadding="true"
+        android:text="To serve you better, we need to know your location. This helps us show available restaurants, delivery options, and accurate delivery times based on your area. Your location is only used within the app to enhance your experience and is not shared with anyone without your permission. You can either allow location access or manually select your city to continue."
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
